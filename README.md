@@ -1,13 +1,13 @@
 # NgxGallery
 Angular image gallery plugin
-Based on [NgxGallery](https://github.com/lukasz-galka/ngx-gallery), Compatible with Angular 15+
+Based on [NgxGallery](https://github.com/lukasz-galka/ngx-gallery), Compatible with Angular 16+
 
 # Prerequisites
 - [Font Awesome](http://fontawesome.io/) (required for icons)
 
 ```npm install font-awesome --save```
 
-For angular-cli based projects insert styles into .angular-cli.json
+For angular-cli based projects insert styles into angular.json
 
 ````
 "styles": [
@@ -23,15 +23,6 @@ For angular-cli based projects insert styles into .angular-cli.json
 ````
 import 'hammerjs';
 ````
-
-# SystemJS
-
-**If you are not using SystemJS you can skip this section.**
-```
-map: {
-  'ngx-gallery-15': 'node_modules/ngx-gallery-15/bundles/ngx-gallery-15.umd.js',
-}
-```
 
 # Angular Material
 
